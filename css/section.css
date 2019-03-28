@@ -1,0 +1,65 @@
+/*channels on the left side of the screen*/
+#channels{
+    position: absolute;
+    height: 100%;
+    width: 40%;
+    left:0px;
+}
+
+/*chat on the right side of the screen*/
+#chat{
+    position: absolute;
+    height: 100%;
+    width: 60%;
+    right:0px;
+}
+
+/*position of moocus*/
+#moocus{
+    position: relative;
+    left: 10px;
+    top: 25px;
+}
+
+/*app bar style*/
+h1{
+    /* position: fixed*/;
+    line-height: 64px;
+    font-size: 20px;
+    font-weight: normal;
+    padding: 10px 0px;
+}
+/*scrolling the channel list*/
+ul{
+    top: 0px;
+    bottom: 0px;
+    overflow: scroll;
+}
+
+/*tab bar spread over the whole page width*/
+#tab-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+/*+5 min Buttons*/
+.min{
+    position: relative;
+    bottom: 8px;
+    left: 8px;
+}
+
+/*Message meta style*/
+h3{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+/*Favorite star and arrow in channel list aligned right and vertically centred*/
+.channel-meta{
+    position: absolute;
+    vertical-align: middle;
+    right: 0px;
+}
