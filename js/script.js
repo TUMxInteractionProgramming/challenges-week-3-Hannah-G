@@ -7,7 +7,7 @@ function switchChannel(channelName) {
     console.log("Tuning in to channel", channelName);
     //new channel to right appbar
     document.getElementById('channel-name').innerHTML = channelName;
-    document.getElementById('channel-location').innerHTML = 'by <a href="http://w3w.co/cheeses.yard.applies" target="_blank"><strong>cheeses.yard.applies</strong></a>';
+    document.getElementById('channel-location').innerHTML = 'by <a href="http://w3w.co/‘upgrading.never.helps" target="_blank"><strong>‘upgrading.never.helps</strong></a>';
     //star when clicking
     $('#channel-star').attr('src', 'http://ip.lfe.mw.tum.de/sections/star-o.png');
     // active state for channel
